@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace KomodoInsurance
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            InsuranceConsole ui = new InsuranceConsole();
+            ui.Run();
+        }
+    }
+}
